@@ -1,0 +1,110 @@
+.signup-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.signup-container {
+    width: 100%;
+    height: 75%;
+}
+
+.border-red-500 {
+    border: 1px solid red;
+}
+
+.signup-btn {
+    background-color: #5a7ca5;
+    color: white;
+    width: 330px;
+    margin-top: 5%;
+}
+
+.input-group {
+    width: 330px;
+    height: 50px;
+}
+
+.header-container {
+    display: flex;
+    box-sizing: border-box;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.back-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.signup-header-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-with-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-with-button input {
+    width: 100%;
+    padding-right: 70px;
+}
+
+.duplicate-check-btn {
+    position: absolute;
+    right: 5px;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: #e5f7ff;
+    width: 70px;
+    border-radius: 10px;
+    color: #007bff;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    width: 50%;
+    height: 13%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal-content button {
+    width: 60%;
+    margin-top: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.modal-header {
+    margin-bottom: 7px;
+}

@@ -1,0 +1,80 @@
+.post-detail {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.post-content {
+    margin-bottom: 20px;
+}
+
+.comments-section {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.comment {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    position: absolute;
+    width: 50px;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+}
+
+.modify-button {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.comment-input {
+    display: flex;
+}
+
+
+.edit-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.edit-cancel {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.edit-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.edit-save {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+
+.modal-content{
+    width: 60%;
+}

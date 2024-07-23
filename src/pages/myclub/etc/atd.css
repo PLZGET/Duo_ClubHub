@@ -1,0 +1,52 @@
+.whole {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.date-display {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-Top: 15px;
+    color: #666;
+}
+
+.atd-member-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.atd-member-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.atd-member-info {
+    display: flex;
+    align-items: center;
+}
+
+.atd-member-name {
+    font-size: 18px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.atd-toggle-button {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.atd-check-icon {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.atd-check-icon.present {
+    color: #597CA5;
+}

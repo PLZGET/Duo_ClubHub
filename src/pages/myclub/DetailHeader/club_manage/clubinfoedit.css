@@ -1,0 +1,45 @@
+.clubinfo-edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    /*height: 100vh;*/
+    justify-content: center;
+}
+
+.edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.edit-container-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 7px;
+}
+
+.edit-container-left-in {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.edit-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.edit-input-box {
+    border: 1.5px solid lightgrey;
+    border-radius: 5px;
+}
+
+.edit-input-box:focus {
+    outline: none;
+    border-color: #597CA5;
+}

@@ -1,0 +1,22 @@
+.Header_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+    background-color: white;
+    font-size: 25px;
+}
+
+.Header_center p {
+    width: 185px;
+    height: 50px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    align-items: center;
+    color: #597CA5;
+    font-weight: 900;
+    font-style: italic;
+    background-color: #E6F7FF;
+    border-radius: 40px;
+}

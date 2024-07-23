@@ -1,0 +1,121 @@
+.whole {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.scrolll-container {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 2px;
+}
+
+.notice_list {
+    margin-top: 10px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.post .title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.post .content {
+    margin-top: 4px;
+    font-size: 17px;
+    color: dimgrey;
+    text-align: left;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.post .createdAt {
+    margin-top: 2px;
+    margin-bottom: 13px;
+    font-size: 16px;
+    color: gray;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    padding-bottom: 60px; /* input을 위해 하단 여백 추가 */
+}
+
+.comment-oneline {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.submit-comment-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.submit-comment-container input {
+    width: 80%;
+    flex: 1;
+    font-size: 16.5px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1.5px solid darkgray;
+    height: 47px;
+    margin-left: 10px;
+}
+
+.submit-comment-container input:focus {
+    outline: none;
+    border: 1.5px solid #597CA5;
+}
+
+.submit-comment-container button {
+    width: 2%; /* 너비 조정 */
+    text-align: center;
+    cursor: pointer;
+    color: #5c5c5c;
+    margin-right: 15px;
+    margin-left: 1px;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 200px;
+    min-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

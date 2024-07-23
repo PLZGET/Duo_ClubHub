@@ -1,0 +1,64 @@
+.aaa {
+    flex-grow: 1;
+    padding: 16px;
+    overflow-y: auto;
+}
+
+.aaa span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-bottom: 1.5px solid gainsboro;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.bbb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1.5px solid gainsboro;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.ccc {
+    font-size: 18px;
+}
+
+.etc2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1.5px solid gainsboro;
+    margin-top: 10px;
+}
+
+.att-complete-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #597CA5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
+}
+
+.ddd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}

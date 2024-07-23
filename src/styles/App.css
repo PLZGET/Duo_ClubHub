@@ -1,0 +1,12 @@
+.App {
+    width: calc(var(--vw, 1vw) * 100);
+    height: calc(var(--vh,1vh)* 100);
+    text-align: center;
+    display : flex;
+    flex-direction: column;
+}
+
+:root {
+    --vh: 100%;
+    --vw: 100%;
+}

@@ -1,0 +1,49 @@
+.menu-container {
+    width:100%;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.menu-scroll {
+    display: inline-flex;
+    padding: 10px 0;
+}
+
+.menu-all {
+    flex: 0 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 65%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-item.active {
+    border-color: #000;
+    font-weight: bold;
+
+}
+
+.posts-container {
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.post-item {
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+}
+
+.write-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

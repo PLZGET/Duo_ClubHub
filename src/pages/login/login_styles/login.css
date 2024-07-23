@@ -1,0 +1,94 @@
+.login-container {
+    width: 100%;
+    min-height: 90%;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+input:focus {
+    outline:none;
+}
+
+button, .social-login {
+    width: 330px;
+    padding: 12px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.login-btn {
+    background-color: #5a7ca5;
+    color: white;
+    margin: 5% auto 0;
+}
+
+.social-login-container {
+    padding: 10px;
+    text-align: center;
+    margin-left: -9px;
+}
+
+
+.kakao-btn {
+    background-color: #FEE500;
+    padding: 0;
+    color: #000000;
+    margin-left: -20px;
+}
+
+.signup-link {
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signup-text {
+    font-size: 14px;
+    color: #606770;
+    margin-bottom: 80px;
+}
+
+.input-group {
+    text-align: left;
+    width: 95%;
+    margin: 0 auto 40px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 330px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login_text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}

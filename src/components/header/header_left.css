@@ -1,0 +1,19 @@
+.Header_left {
+    margin-bottom: auto;
+    background-color: white;
+    height: 72.5px;
+    font-size: 25px;
+}
+
+.Header_left p {
+    width: 185px;
+    height: 50px;
+    margin-top: 15px;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #597CA5;
+    font-weight: 900;
+    font-style: italic;
+    background-color: #E6F7FF;
+    border-radius: 40px;
+}

@@ -1,0 +1,104 @@
+.myclub-detail-container {
+    position: fixed;
+    width: calc(var(--vw, 1vw) * 100);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    padding-bottom: 10px;
+}
+
+.scroll-container {
+    flex: 1;
+    overflow-y: auto;
+    margin-left: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: darkgray white;
+    padding-bottom: 110px;
+}
+
+.item-container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.headerrcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px 0 10px;
+}
+
+.headerrcontainer h2 {
+    font-size: 21.3px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.headerrcontainer p {
+    font-size: 17px;
+    cursor: pointer;
+    line-height: 35px;
+    margin-right: 5px;
+    color: gray;
+    font-weight: bold;
+}
+
+.box-section {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+    /*scrollbar-width: thin;*/
+    /*scrollbar-color: darkgray white;*/
+    scrollbar-width: none;
+}
+
+.box-section::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 210px;
+    max-width: 210px;
+    /*max-height: 110px;*/
+    /*min-height: 110px;*/
+    padding: 15px;
+    border: 1.5px solid #597CA5;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.box-item p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%; /* 부모 요소의 너비에 맞춰서 작동하게 설정 */
+}
+
+.box-item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.box-item p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.section {
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+.section div {
+    font-size: 16px;
+}

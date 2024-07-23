@@ -1,0 +1,44 @@
+.activity-container {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.club-activity {
+    overflow-y : auto;
+}
+
+.activity-img {
+    display: flex;
+    padding: 5px;
+}
+
+h2{
+    font-weight: bold;
+    font-size:25px;
+}
+
+.activity-img img{
+    width: 50%;
+    height: 200px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.clubs-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.activity-info {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.detail-info {
+    display: flex;
+    margin-left: 10px;
+}

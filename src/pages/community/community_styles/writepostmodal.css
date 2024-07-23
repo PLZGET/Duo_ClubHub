@@ -1,0 +1,52 @@
+.post-edit-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-edit {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.edit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.edit-cancel, .edit-save {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.edit-title {
+    margin: 0;
+}
+
+.edit-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-form input, .edit-form textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.edit-form textarea {
+    flex: 1;
+    resize: none;
+}

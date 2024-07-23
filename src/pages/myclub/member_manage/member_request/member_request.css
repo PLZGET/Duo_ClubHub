@@ -1,0 +1,33 @@
+.member_request_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 11px;
+    border-bottom: 1px solid #ddd;
+}
+
+.member_request_item img {
+    width: 45px;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 10px;
+}
+
+.member_request_item .member_info {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.member_request_item .name {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+.member_request_item .major_studentNum {
+    text-align: left;
+    font-size: 11px;
+    color: gray;
+    margin-bottom: 15px;
+}

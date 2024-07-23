@@ -1,0 +1,117 @@
+.image {
+    margin-top: 15px;
+    margin-left: 10px;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.add_club_picture {
+    margin-left: 20px;
+    height: 70px;
+    text-align: left;
+    padding-top: 14px;
+}
+
+.image::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.add_club_info {
+    float: left;
+    width: 91%;
+    text-align: left;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.add_club_info p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.add_club_info input {
+    margin-top: 7px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    width: 99%;
+    height: 32px;
+}
+
+.add_club_info textarea {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-right: 1px;
+    font-size: 13px;
+    width: 99%;
+    min-height: 300px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 8px;
+    margin-left: 1px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.category_radio {
+    font-size: 13px;
+    margin-left: 3px;
+    margin-right: 13px;
+}
+
+.category_radio input {
+    width: 8px;
+    height: 10px;
+    transform: scale(1.5);
+    margin-right: 7px;
+}
+
+.content_picture {
+    background-color: rgba(211, 211, 211, 0.5);
+    width: 99%;
+    height: 100px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_picture p {
+    font-size: 13px;
+    color: black;
+}
+
+.form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91%;
+    height: 40px;
+    font-size: 17px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: #597CA5;
+    color: white;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 7px;
+    left: 18px;
+}

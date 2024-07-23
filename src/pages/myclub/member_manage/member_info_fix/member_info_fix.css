@@ -1,0 +1,104 @@
+.member_info_detail {
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.member_info_detail img {
+    float: left;
+    width: 55px;
+    margin-right: 17px;
+}
+
+.member_info_detail .name {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.member_info_detail .studentNum {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.member_info_detail .role, .member_info_detail .phone, .member_info_detail .major {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.member_info_detail .role-button {
+    width: auto;
+    height: 33px;
+    margin-top: 6px;
+    margin-right: 10px;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-weight: normal;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.member_info_detail .role .role-president, .member_info_detail .role .role-general {
+    background-color: #D4F2FF;
+    color: #000000;
+}
+
+.member_info_detail .phone, .member_info_detail .major {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+}
+
+.member_info_detail .phoneNum, .member_info_detail .majorName {
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 125px;
+    height: 33px;
+    padding-left: 10px;
+    margin-top: 6px;
+    margin-left: 0px;
+    border-radius: 5px;
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.member_info_detail .phone {
+    margin-bottom: 35px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.buttons .out {
+    width: 211px;
+    height: 40px;
+    background-color: lightgrey;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.buttons .fix {
+    width: 211px;
+    height: 40px;
+    background-color: #597CA5;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 8px;
+}

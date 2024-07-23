@@ -1,0 +1,90 @@
+.Mypage {
+    border-bottom: 1px solid #ddd;
+}
+
+.propyl {
+    height: 140px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.menu_list {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 235px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 18px;
+}
+
+.title p {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    width: 100px;
+    float: left;
+    margin-left: 27px;
+}
+
+.title button {
+    font-size: 15px;
+    float: right;
+    width: 87px;
+    height: 30px;
+    background-color: #597CA5;
+    opacity: 0.8;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.propyl img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 25px;
+    position: relative;
+}
+
+.info {
+    float: left;
+    margin-left: 19px;
+    height: 70px;
+    text-align: left;
+}
+
+.mypage_list {
+    height: 55px;
+    font-size: 17px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.mypage_list .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.mypage_list p {
+    margin-left: 15px;
+}
